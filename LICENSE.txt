@@ -1,0 +1,55 @@
+Universal Converter License
+
+Copyright (c) 2026 zeharyus. All rights reserved.
+
+Universal Converter (the "Software") is not open source. The copyright owner
+keeps all rights except the limited permissions given below.
+
+1. WHAT YOU MAY DO
+
+   a) Use. You may download and use the Software, free of charge.
+
+   b) Themes. You may create themes for the Software (for example colors,
+      fonts, images and theme files that the Software can load) and share
+      them with others. A theme must not contain any part of the Software's
+      code or graphics.
+
+2. WHAT YOU MAY NOT DO
+
+   a) Sell, rent, lease, sublicense, or otherwise charge money for the
+      Software or for any copy of it.
+
+   b) Copy, publish, or redistribute the Software, or any part of it, except
+      for the copies needed to use it and the copying that GitHub's Terms of
+      Service allow on GitHub itself (such as viewing and forking).
+
+   c) Modify the Software, or create other programs based on it, other than
+      themes as described in 1(b).
+
+   d) Reverse engineer, decompile, or disassemble the Software, except to the
+      extent that the law, or the license of a third-party component,
+      allows this despite this restriction.
+
+   e) Remove or change the copyright notice or this license.
+
+3. THIRD-PARTY COMPONENTS
+
+   This license covers only Universal Converter's own code and graphics. The
+   third-party parts bundled with the Software keep their own licenses; see
+   THIRD_PARTY_NOTICES.md and the licenses folder. Nothing in this license
+   limits the rights those licenses give you for those parts.
+
+4. ENDING THIS LICENSE
+
+   If you break these terms, your permission to use the Software ends
+   automatically.
+
+5. NO WARRANTY, NO LIABILITY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.
