@@ -11,8 +11,7 @@ keeps all rights except the limited permissions given below.
 
    b) Themes. You may create themes for the Software (for example colors,
       fonts, images and theme files that the Software can load) and share
-      them with others. A theme must not contain any part of the Software's
-      code or graphics.
+      them with others.
 
 2. WHAT YOU MAY NOT DO
 
