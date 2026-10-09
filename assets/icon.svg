@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1640"/>
+      <stop offset="0.6" stop-color="#2a1b4f"/>
+      <stop offset="1" stop-color="#4a1d3f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.55" stop-color="#ffe9b0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffe9b0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="0.42" cy="0.38" r="0.65">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="0.7" stop-color="#fdeec4"/>
+      <stop offset="1" stop-color="#f4d68e"/>
+    </radialGradient>
+    <clipPath id="tile"><rect x="16" y="16" width="480" height="480" rx="96"/></clipPath>
+    <clipPath id="moonclip"><circle cx="262" cy="214" r="168"/></clipPath>
+  </defs>
+  <g>
+    <rect x="0" y="0" width="512" height="512" fill="url(#sky)"/>
+    <!-- stars -->
+    <g fill="#fff6dc">
+      <path d="M78 96 l5 15 l15 5 l-15 5 l-5 15 l-5 -15 l-15 -5 l15 -5z"/>
+      <path d="M448 78 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 l9 -3z"/>
+      <circle cx="120" cy="190" r="3"/><circle cx="452" cy="300" r="3.5"/>
+      <circle cx="60" cy="300" r="2.5"/><circle cx="400" cy="40" r="2.5"/>
+    </g>
+    <!-- moon glow + moon -->
+    <circle cx="262" cy="214" r="230" fill="url(#glow)"/>
+    <circle cx="262" cy="214" r="168" fill="url(#moon)"/>
+    <!-- cel-shade crescent + craters -->
+    <path d="M359.1 76.9 A168 168 0 1 1 124.9 311.1 A168 168 0 0 0 359.1 76.9 Z" fill="#e9c477" opacity="0.40"/>
+    <circle cx="200" cy="150" r="22" fill="#f1dba6" opacity="0.7"/>
+    <circle cx="318" cy="112" r="13" fill="#f1dba6" opacity="0.7"/>
+    <circle cx="352" cy="292" r="24" fill="#e2bd72" opacity="0.55"/>
+    <!-- wispy cloud bands -->
+    <g fill="#2a1b4f" opacity="0.9">
+      <path d="M40 330 q70 -26 150 -6 q60 14 120 -4 q70 -20 190 4 v18 q-110 -16 -180 4 q-70 18 -140 2 q-70 -16 -140 6z"/>
+      <path d="M150 368 q80 -18 160 -2 q60 10 140 -6 v12 q-80 14 -140 6 q-80 -12 -160 0z" opacity="0.7"/>
+    </g>
+    <!-- branch -->
+    <path d="M-10 420 C 90 400, 200 404, 300 392 C 380 383, 450 370, 530 352 L 530 372 C 450 392, 380 404, 300 412 C 200 422, 90 424, -10 444 Z" fill="#0b0912"/>
+    <path d="M330 404 C 360 420, 380 446, 392 480 L 380 482 C 368 452, 350 428, 322 412Z" fill="#0b0912"/>
+    <!-- crow (perched, facing left) -->
+    <g fill="#08070d">
+      <!-- tail -->
+      <path d="M300 300 L 410 396 L 396 410 L 372 396 L 380 414 L 362 418 L 286 330 Z"/>
+      <!-- body + head -->
+      <path d="M156 152
+               C 162 140, 180 130, 202 130
+               C 226 130, 246 142, 254 164
+               C 264 190, 296 214, 318 250
+               C 334 278, 330 312, 300 332
+               C 270 352, 230 356, 206 344
+               C 182 332, 172 304, 176 276
+               L 168 262 L 178 254 L 166 238 L 176 232 L 164 214 L 172 210
+               C 168 200, 164 194, 160 190
+               C 136 184, 108 182, 82 182
+               C 104 168, 128 156, 156 152 Z"/>
+      <!-- wing (slightly raised, feather fingers) -->
+      <path d="M232 196
+               C 268 200, 316 226, 346 270
+               C 360 292, 370 316, 374 340
+               L 356 328 L 360 350 L 340 336 L 340 356 L 318 338
+               C 296 322, 268 300, 250 276
+               C 232 252, 222 222, 232 196 Z"/>
+      <!-- legs -->
+      <path d="M232 344 l -6 52 l 8 0 l 6 -52z M262 346 l -2 48 l 8 0 l 2 -48z"/>
+    </g>
+    <!-- rim light (anime) along head and back -->
+    <path d="M162 146 C 176 134, 196 129, 214 131 C 232 134, 246 146, 254 164 C 264 190, 296 214, 318 250" fill="none" stroke="#fff3cf" stroke-width="3.5" stroke-linecap="round" opacity="0.85"/>
+    <path d="M118 166 C 130 160, 144 155, 156 153" fill="none" stroke="#fff3cf" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+    <!-- eye -->
+    <circle cx="190" cy="160" r="7.5" fill="#e0233b"/>
+    <circle cx="192.5" cy="157.5" r="2.4" fill="#fff"/>
+  </g>
+  
+</svg>
