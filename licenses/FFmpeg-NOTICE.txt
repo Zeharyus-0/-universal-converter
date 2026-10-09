@@ -1,0 +1,31 @@
+FFmpeg in Universal Converter
+=============================
+
+Universal Converter's video and audio features run FFmpeg as a separate program
+(ffmpeg.exe, packed inside the app). Universal Converter does not modify FFmpeg.
+
+Version:   FFmpeg 7.1, "essentials" Windows build by Gyan.dev
+           (version string: 7.1-essentials_build-www.gyan.dev)
+Delivered: through the imageio-ffmpeg 0.6.0 Python package
+License:   GNU General Public License version 3 (the build uses --enable-gpl and
+           --enable-version3). Full text: GPL-3.0.txt in this folder.
+           FFmpeg's own license notes: FFmpeg-LICENSE.md in this folder.
+
+The build includes these libraries, among others: x264, x265, libvpx, libaom,
+LAME (libmp3lame), Opus, Vorbis, Theora, Speex, libwebp, FreeType, HarfBuzz,
+FriBidi, libass, zimg, libvmaf, libxml2.
+
+Source code (Corresponding Source)
+----------------------------------
+FFmpeg 7.1 source:
+  https://github.com/FFmpeg/FFmpeg/archive/refs/tags/n7.1.tar.gz
+  https://ffmpeg.org/download.html
+The exact Gyan.dev 7.1 build, with its README listing every library version
+and where its source comes from:
+  https://github.com/GyanD/codexffmpeg/releases/tag/7.1
+  https://www.gyan.dev/ffmpeg/builds/
+A copy of the FFmpeg 7.1 source is also attached to this project's GitHub
+release page.
+
+FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
+https://ffmpeg.org/legal.html
